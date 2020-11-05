@@ -1,0 +1,120 @@
+.container{
+  margin:auto;
+  text-align: center;
+  width: 70%;
+}
+body{
+  background-color: #133b5c;
+}
+h1{
+
+  padding: 3rem 0;
+  font-family: 'Lobster', cursive;
+  font-size: 7rem;
+  color: #4ea0ae;
+}
+.dice{
+  display:inline-block;
+  text-align: center;
+}
+img{
+  width:80%
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 32px;
+  font-weight: bold;
+  position: absolute;
+  left: 65.5rem;
+  top:0.05rem;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+ cursor: pointer;
+}
+
+.info_button{
+  position: absolute;
+  left:82rem;
+  top: 1rem;
+  height: 3rem;
+  width: 3rem;
+  background-color: #faf3dd;
+  border-style:hidden;
+  border-radius: 50%;
+}
+
+.rollDice{
+  padding-top: 3rem;
+}
+
+.roll{
+  height:4rem;
+  width: 11rem;
+  background-color:#4ea0ae;
+  color: #fff;
+  font-family: "Indie Flower", cursive;
+  font-size:2rem;
+  border:none;
+  border-radius: 7px;
+  outline:0;
+}
+
+.roll:focus{
+  outline: 0;
+}
+
+.roll:hover{
+  background-color: #3d7ea6;
+  border:none;
+}
+
+.fas{
+  color: #4ea0ae;
+}
+
+.info_button:hover{
+  background-color:#eeeeee;
+}
+
+p{
+   font-family: 'Indie Flower', cursive;
+   font-weight: bold;
+   font-size: 2rem;
+   color: #4ea0ae;
+}
+
+.pressed{
+box-shadow: 0 3px 2px #DBEDF3;
+  opacity: 0.5;
+  border:none;
+}

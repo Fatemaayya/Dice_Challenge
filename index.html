@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dice Challenge</title>
+
+   <!-- css stylesheets -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+   <!-- bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- google fonts  -->
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+
+   <!-- font awesome -->
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  <script src="https://kit.fontawesome.com/a0c55193d0.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div class="container">
+
+    <button class="info_button"><i class="fas fa-info fa-lg"></i></button>
+     <div class="modal" id="Mymodal">
+       <div class="modal-content">
+       <span class="close">&times;</span>
+       <p>This is a dice challenge game. It starts working if one clicks the button then dice will get thrown randomly so that player1 and player2 will have their own dice values and website will announce a winner depending whose dice value is higher. And if both the dice values gets same then the game will be drawn.</p>
+     </div>
+   </div>
+
+      <h1>Let's play</h1>
+      <div class="dice">
+        <p class="player1">player 1</p>
+        <img class="play1" src="dice6.png" alt="">
+      </div>
+      <div class="dice">
+        <p class="player2">player 2</p>
+        <img class="play2" src="dice6.png" alt="">
+      </div>
+
+     <div class="rollDice">
+    <button type="button" class="roll">Roll the dice</button>
+    </div>
+
+    </div>
+<script src="index.js" charset="utf-8"></script>
+
+  </body>
+</html>
